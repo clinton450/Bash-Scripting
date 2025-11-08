@@ -1,7 +1,7 @@
 #!/bin/bash
 
-for token in $*
-do
+name="Hilary ghost"
 
-	echo $token
-done
+age=25
+
+echo "My name is $name and I am $age years old."
