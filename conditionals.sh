@@ -1,15 +1,14 @@
 #!/bin/bash
 
-#case 1  if
-echo "============ if statement ============"
+#case 1  
 num=8
 if [ $num -gt 5 ]; then
     echo "$num is  greater than 5"
 fi
 
 
-#case 2 if else statements
-echo "============if else statement ============"
+#case 2
+echo " "
 age=17
 
 if [ $age -ge 18 ]; then
@@ -19,8 +18,8 @@ else
 fi
 
 
-#case 3 if elif else statements
-echo "============if elif else============"
+#case 3 
+echo " "
 score=85
 if [ $score -ge 90 ]; then
     echo "Grade A"
@@ -33,8 +32,8 @@ else
 fi
 
 
-#case 4 using && and ||   in conditionals
-echo "============ and / or when dealing in conditionals============"
+#case 4 
+echo " "
 temp=25
 if [ $temp -ge 20 ] && [ $temp -le 30 ]; then
     echo "temperature is normal"
